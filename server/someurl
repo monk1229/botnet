@@ -1,0 +1,10 @@
+{
+  "commands": [
+    {
+      "type": "fetch",
+      "args": ["google.com"],
+      "times": 0,
+      "delay": 1
+    }
+  ]
+}
