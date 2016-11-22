@@ -1,0 +1,9 @@
++ download a file
++ run a file
++ visit a website
++ run and download a bash file
++ use only temp files that are deleted on exit
+- run and download any exicutable
+- upload a file
+- use a URL similar to a commonly used URL
+- very delays between commands

