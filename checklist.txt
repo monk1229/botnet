@@ -4,6 +4,14 @@
 + run and download a bash file
 + use only temp files that are deleted on exit
 - run and download any exicutable
-- upload a file
++ upload a file
++ search for any file by name
 - use a URL similar to a commonly used URL
 - very delays between commands
+- replace a file with another (Ex. chrome.exe with an infected chrome.exe)
++ steal passwords and password vaults
+- send email for spam
++ zip up any directory for upload
+- system stats collection (psutil)
+- PATH corruption
++ get OS, RAM, Disk, CPU Count, CPU Type, Number of Network Interfaces
