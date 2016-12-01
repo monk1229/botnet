@@ -1,5 +1,6 @@
 from client import find_by_filename
 
+
 def example_search_for_passwords():
     # List of filenames to look for
     filenames = [

